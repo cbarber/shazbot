@@ -1,4 +1,4 @@
-describe('Shazbat webiste', () => {
+describe('Shazbat website', () => {
   it('logs in and views schedule', () => {
     cy.visit('https://www.shazbat.tv/');
     cy.get('.login-wrap > .form-control:nth-child(2)').click();
